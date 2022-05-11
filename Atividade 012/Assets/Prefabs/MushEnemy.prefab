@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 9174389955009645911}
   - component: {fileID: 9174389955009645912}
   - component: {fileID: 9174389955009645906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MushEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ MonoBehaviour:
   headPoint: {fileID: 9174389955420262347}
   layer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 1280
   boxCollider2D: {fileID: 9174389955009645910}
   circleCollider2D: {fileID: 9174389955009645906}
 --- !u!95 &9174389955009645912

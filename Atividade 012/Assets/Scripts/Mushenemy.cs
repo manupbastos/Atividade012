@@ -59,6 +59,12 @@ public class Mushenemy : MonoBehaviour
                 rig.bodyType = RigidbodyType2D.Kinematic;
                 Destroy(gameObject, 0.5f);
             }
+
+            else
+            {
+                Gamecontroller.instance.ShowGameOver();
+                Destroy(col.gameObject);
+            }
         }
     }
 }

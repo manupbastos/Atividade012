@@ -39,4 +39,13 @@ public class Skyenemy : MonoBehaviour
             speed *= -1f;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "Player")
+        {
+            Gamecontroller.instance.ShowGameOver();
+            Destroy(col.gameObject);
+        }
+    }
 }
