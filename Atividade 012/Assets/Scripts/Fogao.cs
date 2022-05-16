@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fogao : MonoBehaviour
 {
     private Animator anim;
+    public GameObject drop;
 
     void Start()
     {
@@ -14,12 +15,19 @@ public class Fogao : MonoBehaviour
     {
         if (collision.gameObject.layer == 6)
         {
-            anim.SetBool("fire", false);
+            anim.SetBool("fire", true);
+            StartCoroutine(Drop());
         }
         
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        anim.SetBool("fire", true);
+        anim.SetBool("fire", false);
+    }
+    IEnumerator Drop()
+    {
+        yield return new WaitForSeconds(8f);
+        Instantiate(drop, transform.position, Quaternion.identity);
+
     }
 }
