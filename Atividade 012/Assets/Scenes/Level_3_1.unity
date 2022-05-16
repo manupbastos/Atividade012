@@ -991,7 +991,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3836724840156276011, guid: a2cbb80face4fdd4d8c859d6f35c6ab2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3836724840156276011, guid: a2cbb80face4fdd4d8c859d6f35c6ab2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1187,7 +1187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4040187801105117020, guid: e73f64e77806df74195ddcc55520e5a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.57
+      value: 8.17
       objectReference: {fileID: 0}
     - target: {fileID: 4040187801105117020, guid: e73f64e77806df74195ddcc55520e5a9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1225,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4040187801105117021, guid: e73f64e77806df74195ddcc55520e5a9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8763484b6072d3844a055a377d041472, type: 3}
     - target: {fileID: 4040187801105117022, guid: e73f64e77806df74195ddcc55520e5a9, type: 3}
       propertyPath: lvlName
       value: Level_3_2
@@ -3038,7 +3042,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3836724840273328781
 PrefabInstance:
@@ -3118,7 +3122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8678296671247675243, guid: 564ffbcd54336ea4385b885f32e03a59, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8678296671247675243, guid: 564ffbcd54336ea4385b885f32e03a59, type: 3}
       propertyPath: m_LocalPosition.x
